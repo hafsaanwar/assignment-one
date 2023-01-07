@@ -99,7 +99,7 @@ main section {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 24px;
+    gap: 50px;
 }
 
 .check-text {
@@ -151,6 +151,31 @@ h2.my-plans-title {
     color: #fff !important;
 
 }
+
+/*Our Locations*/
+.customers {
+    
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .customers tr:nth-child(even){background-color: #EFEFEF;}
+  
+  .customers tr:hover {background-color: #f15d221a;}
+  
+  .customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #F15B22;
+    color: white;
+  }
+
 
 /* Footer Styles */
 footer {
