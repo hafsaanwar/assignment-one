@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    color: #444343;
+    font-size: 16px;
+    line-height: 1.7em;
+}
+
+h1, h2, h3, h4{
+    color: #151414;
+    line-height: 1.1em;
+    font-weight: 800px;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 40px !important;  
+}
+h3{
+    font-size: 30px;  
+}
+p{
+    margin-bottom: 20px;
+}
+/* header and navigation styles */
+.header{
+    
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-position: center left;
+        background-size: cover;
+}
+
+
+
+
+/* banner styles*/
+
+.banner{
+    padding: 200px 200px;
+}
+.banner-title{
+    font-style: normal;
+    font-weight: 800 !important;
+font-size: 65px;
+    text-align: right;
+   
+    padding-left: 55%;
+}
+
+.banner-description{
+    padding-left: 55%;
+    text-align: right;
+   
+}
+
+/* Button Styles*/
+.btn-primary {
+    font-size: 20px;
+    font-weight: 600 !important;
+    background: #F15B22;
+    border: 0px;
+    float: right;
+    border-radius: 5px;
+    padding: 16px 30px;
+    color: #fff;
+}
+.btn-light-primary{
+    font-size: 20px;
+    font-weight: 600 !important;
+    background: #fff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 16px 30px;
+    color: #F15B22;
+}
+
+/* Main Area Styles*/
+main{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+main section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* About Section*/
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+}
+.check-text{
+    color: #16D887;
+    padding-right: 10px;
+    font-size: 24px;
+}
+/* My Plans Styles*/
+
+.my-plans-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    text-align: center;
+
+}
+.plans img{
+    text-align: center;
+}
+h2.my-plans-title {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.plans-title{
+    text-align: center;
+    margin-bottom: 5px !important;
+}
+.plans-description{
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Mind set Section Styles*/
+.mindset-container{
+    padding: 60px 50% 60px 64px;
+    background-image: linear-gradient(90deg, #F15B22, #f15b2200), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.mindset-title{
+    color: #fff !important;
+ 
+}
+
+/* Footer Styles */
+footer{
+    background: #151414;
+  
+}
+.footer-container{
+    display: flex;
+  
+    justify-content: space-around;
+    gap: 24px;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 120px 0px;
+}
+
+.footer-first-section{
+    padding-right: 23%;
+}
+.footer-title{
+    color: #fff;
+}
+.footer-description{
+    color: #fff;
+}
+.social-media img{
+    margin-right: 15px;
+}
+input[type="email"] {
+    background: transparent;
+    box-shadow: none !important;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 17px 20px;
+    font-size: 18px;
+    color: #F3F3F3;
+    margin-bottom: 20px;
+    width: 300px;
+}
